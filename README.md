@@ -4,9 +4,9 @@ Landing page yang dibuat dengan React + Vite + TypeScript, dengan gaya visual mi
 
 ## Demo
 
-Buka aplikasi di browser setelah menjalankan server lokal:
+Bisa kunjungi website demo:
 
-- http://localhost:5173/
+- https://minimal-ochre.vercel.app/
 
 ## Teknologi yang Digunakan
 
