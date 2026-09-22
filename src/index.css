@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8c0a8;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9a9282;
+}
+
+/* Ensure hero background image is truly grayscale */
+.hero-grayscale {
+  filter: grayscale(100%) brightness(0.35) contrast(1.15);
+  -webkit-filter: grayscale(100%) brightness(0.35) contrast(1.15);
+}
